@@ -1,12 +1,12 @@
 {
-  "name": "bitcore-lib",
-  "main": "./bitcore-lib.min.js",
-  "version": "5.0.0-beta.1",
-  "homepage": "http://bitcore.io",
+  "name": "widecore-lib",
+  "main": "./widecore-lib.min.js",
+  "version": "5.0.1",
+  "homepage": "http://widecore.io",
   "authors": ["BitPay, Inc."],
-  "description": "A pure, powerful core for your bitcoin project.",
+  "description": "A pure, powerful core for your widecoin project.",
   "moduleType": ["globals"],
-  "keywords": ["bitcoin", "bitcore", "btc", "satoshi"],
+  "keywords": ["widecoin", "widecore", "btc", "satoshi"],
   "license": "MIT",
   "ignore": [
     "**/.*",

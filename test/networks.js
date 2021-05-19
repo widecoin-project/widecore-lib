@@ -23,13 +23,13 @@ describe('Networks', function() {
     networks.testnet.regtestEnabled.should.equal(true);
 
     networks.disableRegtest();
-    networks.testnet.networkMagic.should.deep.equal(new Buffer('0b110907', 'hex'));
-    networks.testnet.port.should.equal(18333);
+    networks.testnet.networkMagic.should.deep.equal(new Buffer('fec2b5db', 'hex'));
+    networks.testnet.port.should.equal(18553);
     networks.testnet.dnsSeeds.should.deep.equal([
-      'testnet-seed.bitcoin.petertodd.org',
-      'testnet-seed.bluematt.me',
-      'testnet-seed.alexykot.me',
-      'testnet-seed.bitcoin.schildbach.de'
+      'testnetseed01.widecoin.org'
+      //'testnet-seed.bluematt.me',
+      //'testnet-seed.alexykot.me',
+      //'testnet-seed.bitcoin.schildbach.de'
     ]);
   });
 
