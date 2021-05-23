@@ -1,6 +1,6 @@
 {
   "name": "widecore-lib",
-  "version": "8.1.0",
+  "version": "8.1.1",
   "description": "A pure and powerful JavaScript Widecoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
